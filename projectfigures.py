@@ -160,18 +160,18 @@ plt.show()
 
 #Credal hyperparameter large
 
-hyperparam9 = ["s1=2,s2=4","s1=4,s2=8","s1=8,s2=16"]
-accuracyg9=[0.8797,0.8812,0.8859]
-precisiong9=[0.8804,0.8825,0.8924]
-recallg9=[0.8046,0.8061,0.8082]
-fmeasureg9=[0.8406,0.8424,0.8479]
-determinacyg9=[0.9904,0.9843,0.9698]
+hyperparam10 = ["s1=2,s2=4","s1=4,s2=8","s1=8,s2=16"]
+accuracyg10=[0.8797,0.8812,0.8859]
+precisiong10=[0.8804,0.8825,0.8924]
+recallg10=[0.8046,0.8061,0.8082]
+fmeasureg10=[0.8406,0.8424,0.8479]
+determinacyg10=[0.9904,0.9843,0.9698]
 
-plt.plot(hyperparam9,accuracyg9,marker='x',label='S-A')
-plt.plot(hyperparam9,precisiong9,marker='x',label='S-P')
-plt.plot(hyperparam9,recallg9,marker='x',label='S-R')
-plt.plot(hyperparam9,fmeasureg9,marker='x',label='S-F')
-plt.plot(hyperparam9,determinacyg9,marker='x',label='Determinacy')
+plt.plot(hyperparam10,accuracyg10,marker='x',label='S-A')
+plt.plot(hyperparam10,precisiong10,marker='x',label='S-P')
+plt.plot(hyperparam10,recallg10,marker='x',label='S-R')
+plt.plot(hyperparam10,fmeasureg10,marker='x',label='S-F')
+plt.plot(hyperparam10,determinacyg10,marker='x',label='Determinacy')
 plt.xlabel('Hyperparameters')
 plt.legend()
 plt.show()
